@@ -22,6 +22,8 @@
     "play:vanilla": "pnpm -C playground/vanilla run dev",
     "play:vue3": "pnpm -C playground/vue3 run dev",
     "play:vue2": "pnpm -C playground/vue2 run dev",
+    "play:react": "pnpm -C playground/react run dev",
+    "play:preact": "pnpm -C playground/preact run dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
