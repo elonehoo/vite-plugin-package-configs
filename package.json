@@ -1,0 +1,11 @@
+{
+  "name": "vite-plugin-package-configs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT"
+}
