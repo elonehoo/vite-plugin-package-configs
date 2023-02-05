@@ -1,28 +1,40 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@antfu/eslint-config': ^0.35.1
-  '@types/debug': ^4.1.7
-  '@types/node': ^18.11.19
-  bumpp: ^8.2.1
-  debug: ^4.3.4
-  eslint: ^8.33.0
-  tsup: ^6.5.0
-  typescript: ^4.9.5
-  vite: ^4.1.1
+importers:
 
-dependencies:
-  debug: 4.3.4
+  .:
+    specifiers:
+      '@antfu/eslint-config': ^0.35.1
+      '@types/debug': ^4.1.7
+      '@types/node': ^18.11.19
+      bumpp: ^8.2.1
+      debug: ^4.3.4
+      eslint: ^8.33.0
+      tsup: ^6.5.0
+      typescript: ^4.9.5
+      vite: ^4.1.1
+    dependencies:
+      debug: 4.3.4
+    devDependencies:
+      '@antfu/eslint-config': 0.35.1_4vsywjlpuriuw3tl5oq6zy5a64
+      '@types/debug': 4.1.7
+      '@types/node': 18.11.19
+      bumpp: 8.2.1
+      eslint: 8.33.0
+      tsup: 6.5.0_typescript@4.9.5
+      typescript: 4.9.5
+      vite: 4.1.1_@types+node@18.11.19
 
-devDependencies:
-  '@antfu/eslint-config': 0.35.1_4vsywjlpuriuw3tl5oq6zy5a64
-  '@types/debug': 4.1.7
-  '@types/node': 18.11.19
-  bumpp: 8.2.1
-  eslint: 8.33.0
-  tsup: 6.5.0_typescript@4.9.5
-  typescript: 4.9.5
-  vite: 4.1.1_@types+node@18.11.19
+  playground/vanilla:
+    specifiers:
+      typescript: ^4.9.3
+      vite: ^4.1.0
+      vite-plugin-package-configs: workspace:*
+    dependencies:
+      vite-plugin-package-configs: link:../..
+    devDependencies:
+      typescript: 4.9.5
+      vite: 4.1.1
 
 packages:
 
@@ -3090,6 +3102,39 @@ packages:
     dependencies:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
+    dev: true
+
+  /vite/4.1.1:
+    resolution: {integrity: sha512-LM9WWea8vsxhr782r9ntg+bhSFS06FJgCvvB0+8hf8UWtvaiDagKYWXndjfX6kGl74keHJUcpzrQliDXZlF5yg==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.16.17
+      postcss: 8.4.21
+      resolve: 1.22.1
+      rollup: 3.14.0
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /vite/4.1.1_@types+node@18.11.19:
