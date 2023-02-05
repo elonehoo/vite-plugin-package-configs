@@ -1,5 +1,5 @@
 {
-  "name": "vanilla",
+  "name": "@vite-plugin-package-configs/vanilla",
   "private": true,
   "version": "0.0.0",
   "type": "module",
