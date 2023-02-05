@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-package-configs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Extend Vite config from package.json field",
   "main": "dist/index.js",
@@ -19,9 +19,9 @@
     "build": "tsup",
     "prepublishOnly": "npm run build",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
-    "play:vanilla":"pnpm -C playground/vanilla run dev",
-    "play:vue3":"pnpm -C playground/vue3 run dev",
-    "play:vue2":"pnpm -C playground/vue2 run dev",
+    "play:vanilla": "pnpm -C playground/vanilla run dev",
+    "play:vue3": "pnpm -C playground/vue3 run dev",
+    "play:vue2": "pnpm -C playground/vue2 run dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
