@@ -20,6 +20,8 @@
     "prepublishOnly": "npm run build",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
     "play:vanilla":"pnpm -C playground/vanilla run dev",
+    "play:vue3":"pnpm -C playground/vue3 run dev",
+    "play:vue2":"pnpm -C playground/vue2 run dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
