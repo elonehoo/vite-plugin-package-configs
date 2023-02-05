@@ -3,8 +3,8 @@ import PKG from 'vite-plugin-package-configs'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins:[
-    PKG()
+  plugins: [
+    PKG(),
   ],
   build: {
     lib: {

@@ -6,6 +6,6 @@ import PKG from 'vite-plugin-package-configs'
 export default defineConfig({
   plugins: [
     preact(),
-    PKG()
+    PKG(),
   ],
 })

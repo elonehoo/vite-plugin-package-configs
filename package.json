@@ -1,20 +1,28 @@
 {
   "name": "vite-plugin-package-configs",
-  "version": "0.0.2",
   "type": "module",
+  "version": "0.0.2",
   "description": "Extend Vite config from package.json field",
-  "main": "dist/index.js",
-  "module": "dist/index.cjs",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
   "homepage": "https://github.com/elonehoo/vite-plugin-package-configs",
   "repository": {
     "type": "git",
     "url": "https://github.com/elonehoo/vite-plugin-package-configs"
   },
   "bugs": "https://github.com/elonehoo/vite-plugin-package-configs/issues",
+  "keywords": [
+    "vite",
+    "plugin",
+    "package",
+    "config"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "prepublishOnly": "npm run build",
@@ -25,24 +33,16 @@
     "play:react": "pnpm -C playground/react run dev",
     "play:preact": "pnpm -C playground/preact run dev",
     "play:lit": "pnpm -C playground/lit run dev",
-    "play:svelte":"pnpm -C playground/svelte run dev",
+    "play:svelte": "pnpm -C playground/svelte run dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "keywords": [
-    "vite",
-    "plugin",
-    "package",
-    "config"
-  ],
-  "author": "Elone Hoo <hi@elonehoo.me>",
-  "license": "MIT",
   "dependencies": {
     "debug": "^4.3.4"
   },
   "devDependencies": {
-    "@types/debug": "^4.1.7",
     "@antfu/eslint-config": "^0.35.1",
+    "@types/debug": "^4.1.7",
     "@types/node": "^18.11.19",
     "bumpp": "^8.2.1",
     "eslint": "^8.33.0",

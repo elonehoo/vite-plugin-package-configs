@@ -7,7 +7,6 @@ Extend Vite config from your package.json `vite` field.
 ```jsonc
 // package.json
 {
-  // ...
   "vite": {
     "resolve": {
       "alias": {

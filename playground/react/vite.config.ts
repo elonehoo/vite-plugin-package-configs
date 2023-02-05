@@ -1,4 +1,5 @@
-import { defineConfig,PluginOption } from 'vite'
+import type { PluginOption } from 'vite'
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import PKG from 'vite-plugin-package-configs'
 
@@ -6,6 +7,6 @@ import PKG from 'vite-plugin-package-configs'
 export default defineConfig({
   plugins: [
     react(),
-    PKG() as PluginOption
+    PKG() as PluginOption,
   ],
 })

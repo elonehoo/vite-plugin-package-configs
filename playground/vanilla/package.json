@@ -1,19 +1,19 @@
 {
   "name": "@vite-plugin-package-configs/vanilla",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "vite-plugin-package-configs": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
-  },
-  "dependencies": {
-    "vite-plugin-package-configs": "workspace:*"
   },
   "vite": {
     "define": {
