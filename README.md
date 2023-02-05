@@ -39,6 +39,10 @@ export default {
 }
 ```
 
+## why
+
+Well, I know you can always have those configurations in your `vite.config.ts` file. But, aware the file is in JavaScript / TypeScript, it is not that friendly to be statically analyzed. By putting some of the static configurations in your `package.json` file, you can have it shareable for other scripts and tools (or even manipulate it) by simply loading and parsing the JSON file.
+
 ## License
 
 [MIT](./LICENSE) License © 2023 [Elone Hoo](https://github.com/elonehoo)
