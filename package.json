@@ -1,11 +1,45 @@
 {
   "name": "vite-plugin-package-configs",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
+  "description": "Extend Vite config from package.json field",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/elonehoo/vite-plugin-package-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elonehoo/vite-plugin-package-configs"
   },
-  "keywords": [],
+  "bugs": "https://github.com/elonehoo/vite-plugin-package-configs/issues",
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "package",
+    "config"
+  ],
   "author": "Elone Hoo <hi@elonehoo.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@antfu/eslint-config": "^0.35.1",
+    "@types/node": "^18.11.19",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.33.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  }
 }
