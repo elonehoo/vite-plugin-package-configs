@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vite-plugin-package-configs": "workspace:*",
-    "vue": "^2.7.14"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue2": "^2.2.0",
