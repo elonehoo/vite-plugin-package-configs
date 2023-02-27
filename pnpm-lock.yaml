@@ -7,7 +7,7 @@ importers:
       '@antfu/eslint-config': ^0.35.1
       '@types/debug': ^4.1.7
       '@types/node': ^18.11.19
-      bumpp: ^8.2.1
+      bumpp: ^9.0.0
       debug: ^4.3.4
       eslint: ^8.33.0
       tsup: ^6.5.0
@@ -19,7 +19,7 @@ importers:
       '@antfu/eslint-config': 0.35.1_4vsywjlpuriuw3tl5oq6zy5a64
       '@types/debug': 4.1.7
       '@types/node': 18.11.19
-      bumpp: 8.2.1
+      bumpp: 9.0.0
       eslint: 8.33.0
       tsup: 6.5.0_typescript@4.9.5
       typescript: 4.9.5
@@ -83,7 +83,7 @@ importers:
       tslib: ^2.5.0
       typescript: ^4.9.3
       vite: ^4.1.0
-      vite-plugin-package-configs: workspace:^0.0.2
+      vite-plugin-package-configs: workspace:*
     dependencies:
       vite-plugin-package-configs: link:../..
     devDependencies:
@@ -1450,15 +1450,14 @@ packages:
       semver: 7.3.8
     dev: true
 
-  /bumpp/8.2.1:
-    resolution: {integrity: sha512-4tHKsWC2mqHQvdjZ4AXgVhS2xMsz8qQ4zYt87vGRXW5tqAjrYa/UJqy7s/dGYI2OIe9ghBdiFhKpyKEX9SXffg==}
+  /bumpp/9.0.0:
+    resolution: {integrity: sha512-I2+JLFQin46NioHg6wi23hYQMVExiJyGblARp5fIHUzLv3rRz9me38eUe2xlQCAl7Ys9X+SlhTaIkttTxiL6cQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
       cac: 6.7.14
       fast-glob: 3.2.12
-      kleur: 4.1.5
       prompts: 2.4.2
       semver: 7.3.8
     dev: true
