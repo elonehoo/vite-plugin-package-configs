@@ -17,12 +17,12 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "lit": "^2.7.3",
+    "lit": "^2.7.4",
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.0.4",
-    "vite": "^4.3.4"
+    "vite": "^4.3.6"
   },
   "vite": {
     "server": {
