@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-package-configs",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Extend Vite config from package.json field",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
