@@ -142,9 +142,6 @@ importers:
       vite-plugin-package-configs:
         specifier: workspace:*
         version: link:../..
-      vue:
-        specifier: ^3.3.4
-        version: 3.3.4
     devDependencies:
       '@vitejs/plugin-vue2':
         specifier: ^2.2.0
@@ -152,6 +149,9 @@ importers:
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
+      vue:
+        specifier: ^3.3.4
+        version: 3.3.4
 
   playground/vue3:
     dependencies:
