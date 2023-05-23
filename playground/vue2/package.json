@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite-plugin-package-configs": "workspace:*",
-    "vue": "^3.3.2"
+    "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
     "@vitejs/plugin-vue2": "^2.2.0",

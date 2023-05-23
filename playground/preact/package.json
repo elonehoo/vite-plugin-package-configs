@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.14.0",
+    "preact": "^10.15.0",
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
     "typescript": "^5.0.4",
-    "vite": "^4.3.6"
+    "vite": "^4.3.8"
   },
   "vite": {
     "server": {
