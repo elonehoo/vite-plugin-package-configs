@@ -41,13 +41,13 @@
     "debug": "^4.3.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.7",
-    "@types/debug": "^4.1.8",
-    "@types/node": "^20.3.3",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.44.0",
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6",
-    "vite": "^4.3.9"
+    "@antfu/eslint-config": "^0.43.1",
+    "@types/debug": "^4.1.9",
+    "@types/node": "^20.8.0",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.50.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
   }
 }
