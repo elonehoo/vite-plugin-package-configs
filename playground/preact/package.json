@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.18.0",
+    "preact": "^10.18.1",
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
