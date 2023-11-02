@@ -17,7 +17,7 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "lit": "^2.8.0",
+    "lit": "^3.0.2",
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
