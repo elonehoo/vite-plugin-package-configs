@@ -1,5 +1,5 @@
-import { join } from 'path'
-import { existsSync, promises as fs } from 'fs'
+import { join } from 'node:path'
+import { existsSync, promises as fs } from 'node:fs'
 import _debug from 'debug'
 import type { Plugin } from 'vite'
 
