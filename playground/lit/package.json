@@ -21,8 +21,8 @@
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
-    "typescript": "^5.5.4",
-    "vite": "^5.4.2"
+    "typescript": "^5.6.2",
+    "vite": "^5.4.3"
   },
   "vite": {
     "server": {
