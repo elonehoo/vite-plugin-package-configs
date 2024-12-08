@@ -12,7 +12,7 @@
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue2": "^2.3.1",
+    "@vitejs/plugin-vue2": "^2.3.3",
     "typescript": "^5.7.2",
     "vue": "^2.7.16"
   },
