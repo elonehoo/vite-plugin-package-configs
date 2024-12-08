@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^3.11.2
-        version: 3.11.2(@typescript-eslint/utils@8.15.0)(@vue/compiler-sfc@3.5.13)(eslint@9.16.0)(typescript@5.7.2)
+        version: 3.11.2(@typescript-eslint/utils@8.17.0)(@vue/compiler-sfc@3.5.13)(eslint@9.16.0)(typescript@5.7.2)
       '@types/debug':
         specifier: ^4.1.12
         version: 4.1.12
@@ -64,7 +64,7 @@ importers:
     devDependencies:
       '@preact/preset-vite':
         specifier: ^2.9.3
-        version: 2.9.3(@babel/core@7.25.2)(preact@10.25.1)(vite@6.0.3)
+        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.1)(vite@6.0.3)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -107,8 +107,8 @@ importers:
         version: link:../..
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^4.0.2
-        version: 4.0.2(svelte@5.9.0)(vite@6.0.3)
+        specifier: ^5.0.1
+        version: 5.0.1(svelte@5.9.0)(vite@6.0.3)
       '@tsconfig/svelte':
         specifier: ^5.0.4
         version: 5.0.4
@@ -194,7 +194,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@antfu/eslint-config@3.11.2(@typescript-eslint/utils@8.15.0)(@vue/compiler-sfc@3.5.13)(eslint@9.16.0)(typescript@5.7.2):
+  /@antfu/eslint-config@3.11.2(@typescript-eslint/utils@8.17.0)(@vue/compiler-sfc@3.5.13)(eslint@9.16.0)(typescript@5.7.2):
     resolution: {integrity: sha512-hoi2MnOdiKL8mIhpMtinwMrqVPq6QVbHPA+BuQD4pqE6yVLyYvjdLFiKApMsezAM+YofCsbhak2oY+JCiIyeNA==}
     hasBin: true
     peerDependencies:
@@ -247,7 +247,7 @@ packages:
       '@stylistic/eslint-plugin': 2.11.0(eslint@9.16.0)(typescript@5.7.2)
       '@typescript-eslint/eslint-plugin': 8.17.0(@typescript-eslint/parser@8.17.0)(eslint@9.16.0)(typescript@5.7.2)
       '@typescript-eslint/parser': 8.17.0(eslint@9.16.0)(typescript@5.7.2)
-      '@vitest/eslint-plugin': 1.1.14(@typescript-eslint/utils@8.15.0)(eslint@9.16.0)(typescript@5.7.2)
+      '@vitest/eslint-plugin': 1.1.14(@typescript-eslint/utils@8.17.0)(eslint@9.16.0)(typescript@5.7.2)
       eslint: 9.16.0
       eslint-config-flat-gitignore: 0.3.0(eslint@9.16.0)
       eslint-flat-config-utils: 0.4.0
@@ -557,24 +557,24 @@ packages:
       '@babel/types': 7.26.3
     dev: true
 
-  /@babel/plugin-syntax-jsx@7.23.3(@babel/core@7.25.2):
+  /@babel/plugin-syntax-jsx@7.23.3(@babel/core@7.26.0):
     resolution: {integrity: sha512-EB2MELswq55OHUoRZLGg/zC7QWUKfNLpE57m/S2yr1uEneIgsTgrSzXP3NXEsMkVn76OlaVVnzN+ugObuYGwhg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.25.2
+      '@babel/core': 7.26.0
       '@babel/helper-plugin-utils': 7.24.8
     dev: true
 
-  /@babel/plugin-transform-react-jsx-development@7.22.5(@babel/core@7.25.2):
+  /@babel/plugin-transform-react-jsx-development@7.22.5(@babel/core@7.26.0):
     resolution: {integrity: sha512-bDhuzwWMuInwCYeDeMzyi7TaBgRQei6DqxhbyniL7/VG4RSS7HtSL2QbY4eESy1KJqlWt8g3xeEBGPuo+XqC8A==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.25.2
-      '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.25.2)
+      '@babel/core': 7.26.0
+      '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.26.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -599,17 +599,17 @@ packages:
       '@babel/helper-plugin-utils': 7.25.9
     dev: true
 
-  /@babel/plugin-transform-react-jsx@7.23.4(@babel/core@7.25.2):
+  /@babel/plugin-transform-react-jsx@7.23.4(@babel/core@7.26.0):
     resolution: {integrity: sha512-5xOpoPguCZCRbo/JeHlloSkTA8Bld1J/E1/kLfD1nsuiW1m8tduTA1ERCgIZokDflX/IBzKcqR3l7VlRgiIfHA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/core': 7.25.2
+      '@babel/core': 7.26.0
       '@babel/helper-annotate-as-pure': 7.22.5
       '@babel/helper-module-imports': 7.24.7
       '@babel/helper-plugin-utils': 7.24.8
-      '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.25.2)
+      '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.26.0)
       '@babel/types': 7.25.2
     transitivePeerDependencies:
       - supports-color
@@ -1143,19 +1143,19 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@preact/preset-vite@2.9.3(@babel/core@7.25.2)(preact@10.25.1)(vite@6.0.3):
+  /@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.1)(vite@6.0.3):
     resolution: {integrity: sha512-uVDSKsFnPa/bmRTAcPiYpTvC04T1lhIH2ho3CJZLYibwcwliElS/i64iyATZkgR4DJxSc/JwOCSQS4IF/a03OQ==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x || 3.x || 4.x || 5.x || 6.x
     dependencies:
       '@babel/code-frame': 7.24.7
-      '@babel/core': 7.25.2
-      '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.25.2)
-      '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.25.2)
+      '@babel/core': 7.26.0
+      '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.26.0)
+      '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.26.0)
       '@prefresh/vite': 2.4.5(preact@10.25.1)(vite@6.0.3)
       '@rollup/pluginutils': 4.2.1
-      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.2)
+      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.0)
       debug: 4.4.0
       kolorist: 1.8.0
       magic-string: 0.30.5
@@ -1370,15 +1370,15 @@ packages:
       - typescript
     dev: true
 
-  /@sveltejs/vite-plugin-svelte-inspector@3.0.1(@sveltejs/vite-plugin-svelte@4.0.2)(svelte@5.9.0)(vite@6.0.3):
-    resolution: {integrity: sha512-2CKypmj1sM4GE7HjllT7UKmo4Q6L5xFRd7VMGEWhYnZ+wc6AUVU01IBd7yUi6WnFndEwWoMNOd6e8UjoN0nbvQ==}
+  /@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1)(svelte@5.9.0)(vite@6.0.3):
+    resolution: {integrity: sha512-J/Nmb2Q2y7mck2hyCX4ckVHcR5tu2J+MtBEQqpDrrgELZ2uvraQcK/ioCV61AqkdXFgriksOKIceDcQmqnGhVw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22}
     peerDependencies:
-      '@sveltejs/vite-plugin-svelte': ^4.0.0-next.0||^4.0.0
-      svelte: ^5.0.0-next.96 || ^5.0.0
-      vite: ^5.0.0
+      '@sveltejs/vite-plugin-svelte': ^5.0.0
+      svelte: ^5.0.0
+      vite: ^6.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 4.0.2(svelte@5.9.0)(vite@6.0.3)
+      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.9.0)(vite@6.0.3)
       debug: 4.4.0
       svelte: 5.9.0
       vite: 6.0.3(@types/node@22.10.1)
@@ -1386,18 +1386,18 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte@4.0.2(svelte@5.9.0)(vite@6.0.3):
-    resolution: {integrity: sha512-Y9r/fWy539XlAC7+5wfNJ4zH6TygUYoQ0Eegzp0zDDqhJ54+92gOyOX1l4MO1cJSx0O+Gp13YePT5XEa3+kX0w==}
+  /@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.9.0)(vite@6.0.3):
+    resolution: {integrity: sha512-D5l5+STmywGoLST07T9mrqqFFU+xgv5fqyTWM+VbxTvQ6jujNn4h3lQNCvlwVYs4Erov8i0K5Rwr3LQtmBYmBw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22}
     peerDependencies:
-      svelte: ^5.0.0-next.96 || ^5.0.0
-      vite: ^5.0.0
+      svelte: ^5.0.0
+      vite: ^6.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 3.0.1(@sveltejs/vite-plugin-svelte@4.0.2)(svelte@5.9.0)(vite@6.0.3)
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1)(svelte@5.9.0)(vite@6.0.3)
       debug: 4.4.0
       deepmerge: 4.3.1
       kleur: 4.1.5
-      magic-string: 0.30.12
+      magic-string: 0.30.14
       svelte: 5.9.0
       vite: 6.0.3(@types/node@22.10.1)
       vitefu: 1.0.3(vite@6.0.3)
@@ -1729,7 +1729,7 @@ packages:
       vue: 3.5.13(typescript@5.7.2)
     dev: true
 
-  /@vitest/eslint-plugin@1.1.14(@typescript-eslint/utils@8.15.0)(eslint@9.16.0)(typescript@5.7.2):
+  /@vitest/eslint-plugin@1.1.14(@typescript-eslint/utils@8.17.0)(eslint@9.16.0)(typescript@5.7.2):
     resolution: {integrity: sha512-ej0cT5rUt7uvwxuu7Qxkm7fI+eaOq8vD34qGpuRoXCdvOybOlE5GDqtgvVCYbxLANkcRJfm5VDU1TnJmQRHi9g==}
     peerDependencies:
       '@typescript-eslint/utils': '>= 8.0'
@@ -1742,7 +1742,7 @@ packages:
       vitest:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 8.15.0(eslint@9.16.0)(typescript@5.7.2)
+      '@typescript-eslint/utils': 8.17.0(eslint@9.16.0)(typescript@5.7.2)
       eslint: 9.16.0
       typescript: 5.7.2
     dev: true
@@ -1982,12 +1982,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /babel-plugin-transform-hook-names@1.0.2(@babel/core@7.25.2):
+  /babel-plugin-transform-hook-names@1.0.2(@babel/core@7.26.0):
     resolution: {integrity: sha512-5gafyjyyBTTdX/tQQ0hRgu4AhNHG/hqWi0ZZmg2xvs2FgRkJXzDNKBZCyoYqgFkovfDrgM8OoKg8karoUvWeCw==}
     peerDependencies:
       '@babel/core': ^7.12.10
     dependencies:
-      '@babel/core': 7.25.2
+      '@babel/core': 7.26.0
     dev: true
 
   /balanced-match@1.0.2:
@@ -3479,6 +3479,12 @@ packages:
     resolution: {integrity: sha512-Ea8I3sQMVXr8JhN4z+H/d8zwo+tYDgHE9+5G4Wnrwhs0gaK9fXTKx0Tw5Xwsd/bCPTTZNRAdpyzvoeORe9LYpw==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  /magic-string@0.30.14:
+    resolution: {integrity: sha512-5c99P1WKTed11ZC0HMJOj6CDIue6F8ySu+bJL+85q1zBEIY8IklrJ1eiKC2NDRh3Ct3FcvmJPyQHb9erXMTJNw==}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.0
+    dev: true
 
   /magic-string@0.30.5:
     resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}

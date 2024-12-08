@@ -13,7 +13,7 @@
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^4.0.2",
+    "@sveltejs/vite-plugin-svelte": "^5.0.1",
     "@tsconfig/svelte": "^5.0.4",
     "svelte": "^5.9.0",
     "svelte-check": "^4.1.1",
