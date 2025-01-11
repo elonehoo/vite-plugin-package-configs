@@ -12,7 +12,7 @@
     "vite-plugin-package-configs": "workspace:*"
   },
   "devDependencies": {
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "vite": "^6.0.7"
   },
   "vite": {
