@@ -1,7 +1,7 @@
-import { join } from 'node:path'
-import { existsSync, promises as fs } from 'node:fs'
-import _debug from 'debug'
 import type { Plugin } from 'vite'
+import { existsSync, promises as fs } from 'node:fs'
+import { join } from 'node:path'
+import _debug from 'debug'
 
 const debug = _debug('vite-plugin-package-configs')
 
