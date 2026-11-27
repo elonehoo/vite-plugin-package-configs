@@ -43,11 +43,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "^9.5.1",
     "@types/debug": "^4.1.13",
-    "@types/node": "^24.19.2",
+    "@types/node": "^24.19.4",
     "bumpp": "^12.3.0",
-    "eslint": "^10.13.0",
+    "eslint": "^10.16.0",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
-    "vite": "^6.4.4"
+    "vite": "^6.4.6"
   }
 }
